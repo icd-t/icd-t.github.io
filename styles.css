@@ -1,0 +1,48 @@
+body {
+    background-color: #191919;
+    font-family: Roboto Mono;
+    color: #aaa;
+    margin: 100px 30%;
+    font-size: 13pt;
+    letter-spacing: 4px;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+h1 {
+    font-size: 32pt;
+    color: #fff;
+}
+
+h2 {
+    margin: 150px 0 20px 0;
+    color: #fff;
+    font-weight: bold;
+}
+
+a {
+    color: #d2901e; 
+    text-decoration: none;
+    font-weight: bold;
+}
+
+img {
+    border-radius: 15px;
+
+}
+
+a:hover {
+    color: #ffd48a;
+}
+
+.child {
+    width: max-content;
+    display: inline;
+}
+
+
+.dark {
+    color: #555;
+}
