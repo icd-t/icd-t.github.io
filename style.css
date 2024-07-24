@@ -1,8 +1,8 @@
 :root {
-    --firenord00: #363f51;
-    --firenord01: #414b5f;
-    --firenord02: #405070;
-    --firenord03: #555b66;
+    --firenord00: #121b2c;
+    --firenord01: #313846;
+    --firenord02: #455064;
+    --firenord03: #626f88;
 
     --firenord04: #97a4c0;
     --firenord05: #c4d1ec;
@@ -27,6 +27,7 @@
 
 * {
     font-family: "Fira Code";
+    line-height: 25px;
 }
 
 body {
@@ -39,10 +40,79 @@ body {
     margin-right: auto;
     padding: 20px;
 
+    box-shadow: inset 1000px 1000px var(--firenord01);
+
     border: solid;
     border-width: 4px;
-    border-color: var(--firenord02);
+    border-color: var(--firenord03);
     border-radius: 10px;
+}
+
+h1 {
+    background-color: var(--firenord02);
+    padding: 10px;
+    padding-left: 20px;
+    border-radius: 10px;
+}
+
+p {
+    margin-bottom: 50px;
+}
+
+img {
+    width: 700px;
+    border: solid;
+    border-width: 4px;
+    border-color: var(--firenord03);
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+a {
+    color: var(--firenord11);
+    text-decoration: none;
+}
+
+a:hover {
+    font-weight: bold;
+    color: var(--firenord18);
+}
+
+::-webkit-scrollbar {
+    width: 30px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--firenord00);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--firenord01);
+    border-radius: 100px;
+    border: 10px solid var(--firenord00);
+}
+
+.nav {
+    padding: 10px 15px;
+    background-color: var(--firenord02);
+    border-radius: 10px;
+
+    margin-bottom: 50px;
+    display: inline-block;
+}
+
+.nav-item a {
+    color: var(--firenord18);
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.nav-item a:hover {
+    padding: 5px 10px;
+    border-radius: 10px;
+    background: none;
+    color: var(--firenord01);
+    background-color: var(--firenord06);
 }
 
 .swatch {
@@ -53,4 +123,34 @@ body {
     border-color: var(--firenord04);
     border-radius: 10px;
     display: inline-block;
+    margin-bottom: 50px;
+}
+
+.code {
+    background-color: var(--firenord00);
+    color: var(--firenord04);
+    padding: 15px;
+    border: solid;
+    border-width: 4px;
+    border-color: var(--firenord03);
+    border-radius: 10px;
+    letter-spacing: 2px;
+}
+
+.high {
+    background-color: var(--firenord02);
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.high a {
+    color: var(--firenord14);
+}
+
+.wall {
+    padding: 30px;
+    padding-top: 10px;
+    background-color: var(--firenord00);
+    border-radius: 10px;
+    margin-bottom: 30px;
 }
