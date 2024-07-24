@@ -1,0 +1,56 @@
+:root {
+    --firenord00: #363f51;
+    --firenord01: #414b5f;
+    --firenord02: #405070;
+    --firenord03: #555b66;
+
+    --firenord04: #97a4c0;
+    --firenord05: #c4d1ec;
+    --firenord06: #f4f8ff;
+
+    --firenord07: #e4677c;
+    --firenord08: #ec9b6c;
+    --firenord09: #f3d570;
+    --firenord10: #69be70;
+    --firenord11: #4eadd3;
+    --firenord12: #9263c7;
+    --firenord13: #d178be;
+
+    --firenord14: #e6adb6;
+    --firenord15: #e9bfa6;
+    --firenord16: #ecdeaf;
+    --firenord17: #b9e9bd;
+    --firenord18: #b2d9e9;
+    --firenord19: #d4bfec;
+    --firenord20: #eec1e0;
+}
+
+* {
+    font-family: "Fira Code";
+}
+
+body {
+    background-color: var(--firenord00);
+    color: var(--firenord06);
+
+    width: 800px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+
+    border: solid;
+    border-width: 4px;
+    border-color: var(--firenord02);
+    border-radius: 10px;
+}
+
+.swatch {
+    height: 60px;
+    width: 60px;
+    background-color: var(--firenord04);
+    border: solid 1px;
+    border-color: var(--firenord04);
+    border-radius: 10px;
+    display: inline-block;
+}
