@@ -126,7 +126,7 @@ a:hover {
     height: 60px;
     width: 60px;
     background-color: var(--firenord04);
-    border: solid 1px;
+    border: solid 4px;
     border-color: var(--firenord04);
     border-radius: 10px;
     display: inline-block;
@@ -160,4 +160,15 @@ a:hover {
     background-color: var(--firenord00);
     border-radius: 10px;
     margin-bottom: 30px;
+}
+
+.button {
+    border: none;
+    border-radius: 0px;
+    display: inline-block;
+    width: 88px;
+    height: auto;
+
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
 }
