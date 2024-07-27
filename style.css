@@ -32,13 +32,41 @@
 
 body {
     background-color: var(--firenord00);
-    background-image: url(/walls/Abstract-Ascii-3.png);
-    background-size: 100% auto;
+    margin: 0;
+    display: grid;
+}
+
+.wrapper {
+    height: 100vh;
+    overflow-y: auto;
+    display: grid;
+    perspective: 10px;
+}
+
+.bg {
+    margin-top: 50%;
+    margin: none;
+    grid-area: stack;
+    transform-style: preserve-3d;
+    transform: translateZ(-10px) scale(2);
+    width: 100%;
+}
+
+.bg-img {
+    margin: none;
+    border: none;
+    width: 100%;
+    border-radius: none;
+
+    z-index: -1;
+}
+
+
+.main {
+    background-color: var(--firenord00);
     color: var(--firenord06);
 
     width: 800px;
-    margin-top: 100px;
-    margin-bottom: 100px;
     margin-left: auto;
     margin-right: auto;
     padding: 20px;
@@ -49,6 +77,14 @@ body {
     border-width: 4px;
     border-color: var(--firenord03);
     border-radius: 10px;
+
+    z-index: 1;
+    grid-area: stack;
+    transform-style: preserve-3d;
+
+    -webkit-transform: translate3d(0px, 0px) rotateY(0deg);
+    transform: translate3d(0px, 0, 0px) rotateY(0.2deg) scale(0.8);
+
 }
 
 h1 {
@@ -131,6 +167,10 @@ a:hover {
     border-radius: 10px;
     display: inline-block;
     margin-bottom: 50px;
+
+    z-index: 2;
+    -webkit-transform: translate3d(0px, 0px) rotateY(0deg);
+    transform: translate3d(0px, 0px, 1px) rotateY(0deg) scale(1);
 }
 
 .code {
@@ -142,6 +182,10 @@ a:hover {
     border-color: var(--firenord03);
     border-radius: 10px;
     letter-spacing: 2px;
+
+    z-index: 2;
+    -webkit-transform: translate3d(0px, 0px) rotateY(0deg);
+    transform: translate3d(0px, 0px, 1px) rotateY(0deg) scale(1);
 }
 
 .high {
@@ -160,6 +204,16 @@ a:hover {
     background-color: var(--firenord00);
     border-radius: 10px;
     margin-bottom: 30px;
+
+    border: solid;
+    border-width: 4px;
+    border-color: var(--firenord03);
+    border-radius: 10px;
+    letter-spacing: 2px;
+
+    z-index: 2;
+    -webkit-transform: translate3d(0px, 0px) rotateY(0deg);
+    transform: translate3d(0px, 0px, 1px) rotateY(0deg) scale(1);
 }
 
 .button {
