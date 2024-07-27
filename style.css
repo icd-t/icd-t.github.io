@@ -81,7 +81,7 @@ body {
     margin-right: auto;
     padding: 20px;
 
-    box-shadow: inset 1000px 1000px var(--firenord01);
+    box-shadow: inset 1000px 1000px var(--firenord01), 0px 0px 100px var(--firenord00);
 
     border: solid;
     border-width: 4px;
@@ -178,9 +178,11 @@ a:hover {
     display: inline-block;
     margin-bottom: 50px;
 
+    box-shadow: 0px 0px 30px var(--firenord00);
+
     z-index: 2;
     -webkit-transform: translate3d(0px, 0px) rotateY(0deg);
-    transform: translate3d(0px, 0px, 1px) rotateY(0deg) scale(1);
+    transform: translate3d(0px, 0px, 1.5px) rotateY(0deg) scale(1);
 }
 
 .code {
@@ -193,9 +195,11 @@ a:hover {
     border-radius: 10px;
     letter-spacing: 2px;
 
+    box-shadow: 0px 0px 30px var(--firenord00);
+
     z-index: 2;
     -webkit-transform: translate3d(0px, 0px) rotateY(0deg);
-    transform: translate3d(0px, 0px, 1px) rotateY(0deg) scale(1);
+    transform: translate3d(0px, 0px, 1.5px) rotateY(0deg) scale(1);
 }
 
 .high {
@@ -221,9 +225,11 @@ a:hover {
     border-radius: 10px;
     letter-spacing: 2px;
 
+    box-shadow: 0px 0px 30px var(--firenord00);
+
     z-index: 2;
     -webkit-transform: translate3d(0px, 0px) rotateY(0deg);
-    transform: translate3d(0px, 0px, 1px) rotateY(0deg) scale(1);
+    transform: translate3d(0px, 0px, 1.5px) rotateY(0deg) scale(1);
 }
 
 .button {
