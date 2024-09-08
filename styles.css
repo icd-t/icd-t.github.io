@@ -95,9 +95,29 @@ main {
     color: var(--firenord11);
 }
 
+.nav-item-2 {
+    background-color: var(--firenord02);
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-right: -20px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    clip-path: polygon(1.25em 0, 100% 0, calc(100% - 1.25em) 100%, 0 100%);
+    color: var(--firenord11);
+}
+
+
 .nav-item:hover {
     background-color: var(--firenord11);
     color: var(--firenord01);
+}
+
+.nav-item-2:hover {
+    background-color: var(--firenord00);
 }
 
 .nav-home {
