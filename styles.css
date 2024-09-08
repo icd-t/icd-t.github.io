@@ -1,0 +1,293 @@
+:root {
+    --firenord00: #121b2c;
+    --firenord01: #313846;
+    --firenord02: #455064;
+    --firenord03: #626f88;
+
+    --firenord04: #97a4c0;
+    --firenord05: #c4d1ec;
+    --firenord06: #f4f8ff;
+
+    --firenord07: #e4677c;
+    --firenord08: #ec9b6c;
+    --firenord09: #f3d570;
+    --firenord10: #69be70;
+    --firenord11: #4eadd3;
+    --firenord12: #9263c7;
+    --firenord13: #d178be;
+
+    --firenord14: #e6adb6;
+    --firenord15: #e9bfa6;
+    --firenord16: #ecdeaf;
+    --firenord17: #b9e9bd;
+    --firenord18: #b2d9e9;
+    --firenord19: #d4bfec;
+    --firenord20: #eec1e0;
+}
+
+body {
+    margin: 0;
+    display: flexbox;
+    background-color: var(--firenord00);
+    opacity: 1;
+    color: var(--firenord06);
+    font-family: "Fira Code";
+}
+
+header {
+    cursor: default;
+    background-image: url("imgs/clouds.png");
+    background-size: 100%;
+    margin: 0;
+    padding-left: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    height: 100px;
+
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: 50px;
+    color: var(--firenord05);
+    text-align: center;
+    text-shadow: 0 0 20px var(--firenord05), 0 0 50px var(--firenord05);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, calc(100% - 50px) calc(100% - 50px), 50px calc(100% - 50px), 0% 100%);
+}
+
+footer {
+    cursor: default;
+    background-image: url("imgs/clouds.png");
+    opacity: 1;
+    background-size: 100%;
+    margin: 0;
+    padding-left: 100px;
+    padding-top: 30px;
+    padding-bottom: 0px;
+    height: 75px;
+
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 5px;
+    color: var(--firenord05);
+    text-align: center;
+    clip-path: polygon(50px 0%, calc(100% - 50px) 0%, 100% 50px, 100% calc(100% - 50px), 100% 100%, 50px 100%, 0% 100%, 0% 50px);
+}
+
+main {
+    margin: 5em 20vw;
+}
+
+.nav {
+    margin-left: 25px;
+    margin-bottom: 10px;
+}
+
+.nav-item {
+    background-color: var(--firenord01);
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-right: -20px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    clip-path: polygon(1.25em 0, 100% 0, calc(100% - 1.25em) 100%, 0 100%);
+    color: var(--firenord11);
+}
+
+.nav-item-2 {
+    background-color: var(--firenord02);
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-right: -20px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    clip-path: polygon(1.25em 0, 100% 0, calc(100% - 1.25em) 100%, 0 100%);
+    color: var(--firenord11);
+}
+
+
+.nav-item:hover {
+    background-color: var(--firenord11);
+    color: var(--firenord01);
+}
+
+.nav-item-2:hover {
+    background-color: var(--firenord00);
+}
+
+.nav-home {
+    color: var(--firenord08);
+}
+
+.nav-home:hover {
+    background-color: var(--firenord08);
+    color: var(--firenord01);
+}
+
+.nav-palette {
+    color: var(--firenord07);
+}
+
+.nav-palette:hover {
+    background-color: var(--firenord07);
+    color: var(--firenord01);
+}
+
+.nav-walls {
+    color: var(--firenord10);
+}
+
+.nav-walls:hover {
+    background-color: var(--firenord10);
+    color: var(--firenord01);
+}
+
+.nav-more {
+    color: var(--firenord12);
+}
+
+.nav-more:hover {
+    background-color: var(--firenord12);
+    color: var(--firenord01);
+}
+
+.content-w {
+    background-color: var(--firenord02);
+    clip-path: polygon(1em 0%, calc(100% - 1em) 0%, 100% 1em, 100% calc(100% - 1em), calc(100% - 1em) 100%, 1em 100%, 0% calc(100% - 1em), 0% 1em);
+    margin-bottom: 50px;
+}
+
+.content-h {
+    cursor: default;
+    padding: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.content-h1 {
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 5px;
+    margin: 0;
+}
+
+.content-h2 {
+    margin: 0;
+    font-weight: 700;
+    color: var(--firenord04);
+}
+
+.content-h3 {
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    float: right;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 0;
+    color: var(--firenord04);
+    background-color: var(--firenord01);
+    clip-path: polygon(1.25em 0, calc(100% - 1.25em) 0, 100% 100%, 1.25em 100%, 0.625em 50%);
+}
+
+.content-c {
+    background-color: var(--firenord01);
+    padding: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    clip-path: polygon(1em 0%, calc(100% - 1em) 0%, 100% 1em, 100% calc(100% - 1em), calc(100% - 1em) 100%, 1em 100%, 0% calc(100% - 1em), 0% 1em);
+}
+
+.content-wc {
+    padding: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+p {
+    color: var(--firenord05);
+}
+
+a {
+    text-decoration: none;
+    font-weight: 700;
+    color: var(--firenord11);
+}
+
+a:hover {
+    color: var(--firenord18);
+}
+
+pre {
+    cursor: default;
+    background-color: var(--firenord02);
+    display: inline-block;
+    font-weight: 700;
+    padding: 30px;
+    clip-path: polygon(1em 0%, calc(100% - 1em) 0%, 100% 1em, 100% calc(100% - 1em), calc(100% - 1em) 100%, 1em 100%, 0% calc(100% - 1em), 0% 1em);
+}
+
+.code {
+    width: 90%;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.pixel-img {
+    image-rendering: optimizeSpeed;            
+    image-rendering: -moz-crisp-edges;         
+    image-rendering: -o-crisp-edges;           
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: pixelated;                
+    image-rendering: optimize-contrast;        
+    -ms-interpolation-mode: nearest-neighbor;  
+}
+
+.palette-w {
+    background-color: var(--firenord02);
+    padding: 10px;
+    margin-top: 10px;
+    display: inline-block;
+    clip-path: polygon(10px 0%, calc(100% - 10px) 0%, 100% 10px, 100% calc(100% - 10px), calc(100% - 10px) 100%, 10px 100%, 0% calc(100% - 10px), 0% 10px);
+}
+
+.palette-i {
+    background-color: var(--firenord00);
+    padding: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    clip-path: polygon(10px 0%, calc(100% - 10px) 0%, 100% 10px, 100% calc(100% - 10px), calc(100% - 10px) 100%, 10px 100%, 0% calc(100% - 10px), 0% 10px);
+}
+
+.palette-c {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.background {
+    grid-area: stack;
+}
+
+.bg-img {
+    width: 100%;
+}
+
+.hidden {
+    font-weight: 400;
+    opacity: 0.5;
+}
+
+.wall-img {
+    width: 100%;
+    margin: 0;
+    clip-path: polygon(1em 0%, calc(100% - 1em) 0%, 100% 1em, 100% calc(100% - 1em), calc(100% - 1em) 100%, 1em 100%, 0% calc(100% - 1em), 0% 1em);
+}
+
+.low {
+    color: var(--firenord04);
+}
