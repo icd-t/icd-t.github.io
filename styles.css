@@ -183,6 +183,12 @@ main {
     clip-path: polygon(1em 0%, calc(100% - 1em) 0%, 100% 1em, 100% calc(100% - 1em), calc(100% - 1em) 100%, 1em 100%, 0% calc(100% - 1em), 0% 1em);
 }
 
+.content-wc {
+    padding: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 p {
     color: var(--firenord05);
 }
@@ -254,4 +260,14 @@ pre {
 .hidden {
     font-weight: 400;
     opacity: 0.5;
+}
+
+.wall-img {
+    width: 100%;
+    margin: 0;
+    clip-path: polygon(1em 0%, calc(100% - 1em) 0%, 100% 1em, 100% calc(100% - 1em), calc(100% - 1em) 100%, 1em 100%, 0% calc(100% - 1em), 0% 1em);
+}
+
+.low {
+    color: var(--firenord04);
 }
