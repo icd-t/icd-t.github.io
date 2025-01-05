@@ -3,92 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
     <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="scripts/daysSince.js"></script>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&amp;display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>ICD-T</title>
 </head>
 <body>
-    <header id="header">
-        ICDT_
-    </header>
-    
-    <main>
-        <div class="nav">
-            <span class="nav-holder">
-                <a href="index.html" class="nav-item nav-home">HOME</a>
-                <a href="palette.html" class="nav-item nav-palette">PALETTE</a>
-                <a href="walls.html" class="nav-item nav-walls">WALLS</a>
-                <a href="links.html" class="nav-item nav-links">LINKS</a>
-                <a href="#" class="nav-item nav-more">MORE</a>
-            </span>
-        </div>
-        <div class="content-w">
-            <div class="content-h">
-                <div class="content-h1">Welcome</div>
-                <span class="content-h2">Last Updated: 2024-09-07</span>
-                <span class="content-h3">ICDT / Home</span>
-            </div>
-            <div class="content-c">
-                <p>
-                    Hello! My name is Iced Tea, or just ICDT for short. If you know me in real life, congradulations for stalking. I enjoy making these types of websites, I've been doing it since I was 10. Wlthough I have little experience with JS, I think this website turned out pretty well!
-                </p>
-                <p>
-                    Adittionaly, I would like to give a huge thanks to osk for the inspiration for this websit. I also stole some of their css, so sorry about that in advance. You can check them out by going to their website at <a href="https://osk.sh">osk.sh</a>. Again, sorry for stealing your CSS...
-                </p>
-                <pre>
-       _                        
-       \`*-.                    
-        )  _`-.                 
-       .  : `. .                
-       : _   '  \               
-       ; *` _.   `*-._          
-       `-.-'          `-.       
-         ;       `       `.     
-         :.       .        \    
-         . \  .   :   .-'   .   
-         '  `+.;  ;  '      :   
-         :  '  |    ;       ;-. 
-         ; '   : :`-:     _.`* ;
-[bug] .*' /  .*' ; .*`- +'  `*' 
-      `*-*   `*-*  `*-*'</pre>
-                <p>
-                    Anyways, if you would like to use my color palette, feel free to do so! no credit required. You can find it by visiting my palette page up at the top. Also I have some nice wallpapers that I made, and you can use them as well! If you would like to contact me, you can find my socials in the links section.
-                </p>
-            </div>
-        </div>
-        <div class="content-w">
-            <div class="content-h">
-                <div class="content-h1">Button</div>
-                <span class="content-h2">My old-web button</span>
-                <span class="content-h3">ICDT / Home</span>
-            </div>
-            <div class="content-c">
-                <p>
-                    Long ago, websites used to have buttons. These buttons were 88x31 pixel advertizements that attempted to get a click out of the user. Despite being advertizements they had lots of personality, and helped connect people across the decentralized inter-webs. Now, the only symbolance of this era is neocities. In order to keep this custom alive, I have created my own button. If you would like to put it on your website, just copy it from below!
-                </p>
-                <img alt="icd-t website button" src="imgs/icd-t.gif" class="pixel-img"><br>
-                <img alt="icd-t website button" src="imgs/icd-t.gif" class="pixel-img" style="width: calc(20% + 88px);">
-                <p>
-                    Download my button by clicking here: <a href="imgs/icd-t.gif" download>Download</a>
-                </p>
-            </div>
-        </div>
-    </main>
-    <footer id="footer">
-        Thank you for visiting
-        <div class="nav"></div>
-            <span class="nav-holder">
-                <a href="index.html" class="nav-item nav-home">HOME</a>
-                <a href="palette.html" class="nav-item nav-palette">PALETTE</a>
-                <a href="walls.html" class="nav-item nav-walls">WALLS</a>
-                <a href="links.html" class="nav-item nav-links">LINKS</a>
-                <a href="#" class="nav-item nav-more">MORE</a>
-            </span>
-        </div>
-    </footer>
+    <div class="container">
 
-    <script type="text/javascript" src="js/background-switcher.js"></script>
+        <div class="text-section">
+            <div class="nav">
+                <a href="index.html"><i class="fa-solid fa-house"></i> Home</a>
+                <a href="palettes.html"><i class="fa-solid fa-palette"></i> Palettes</a>
+                <a href="photos.html"><i class="fa-solid fa-camera"></i> Photos</a>
+                <a href="links.html"><i class="fa-solid fa-link"></i> Links</a>
+            </div>
+            <h1>ICD-T<div class="darker">.github.io/</div></h1>
+
+            <hr class="solid">
+
+            <div class="paragraph">
+                Hello, and welcome to my humble abode. Feel free to peep around, I have lots of goodies for you if you know where to look. (Hint: its at the top) This is like my 6th or 7th major refactoring of this website. This time I got a spell checker, so it can't possibly be that bad.
+            </div>
+            <div class="paragraph">
+                You can expect some occasional updates. Maybe with some new pictures or content, so stay tuned if you want. Also feel free to check out my socials in the links page.
+            </div>
+            <div class="paragraph">
+                A note to the people who know me in real life: Stop stalking me. Its weird.
+            </div>
+
+            <hr class="solid">
+
+            <div class="paragraph">
+                <div class="darker">Last updated: <div id="days">NaN days ago</div> // <div id='dateDisplay'>01/05/2025</div> </div>
+            </div>
+        </div>
+
+        <div class="img-section">
+            <img src="imgs/IMG_2072.jpg" alt="">
+            <img src="imgs/IMG_2072.jpg" alt="">
+        </div>
+    </div>
 </body>
 </html>
