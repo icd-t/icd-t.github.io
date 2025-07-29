@@ -25,21 +25,25 @@ body {
     transform: translateZ(-3px) scale(4);
     margin-top: 0;
     background-image: url("/background/g1.png");
+    background-repeat: no-repeat;
 }
 #g2 {
     transform: translateZ(-2px) scale(3);
     margin-top: 0vh;
     background-image: url("/background/g2.png");
+    background-repeat: no-repeat;
 }
 #g3 {
     transform: translateZ(-1px) scale(2);
     margin-top: 0vh;
     background-image: url("/background/g3.png");
+    background-repeat: no-repeat;
 }
 #g4 {
     transform: translateZ(0px) scale(1);
     margin-top: 0vh;
     background-image: url("/background/g4.png");
+    background-repeat: no-repeat;
 }
 #g5 {
     margin-top: clamp(300px, 20vh, 500px);
