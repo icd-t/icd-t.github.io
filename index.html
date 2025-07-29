@@ -3,51 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <script type="text/javascript" src="scripts/daysSince.js"></script>
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&amp;display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-    <title>ICD-T</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="/icons/favicon.png">
+    <script type="text/javascript" src="/daysSince.js"></script>
+    <title>Home</title>
 </head>
 <body>
-    <div class="container">
-
-        <div class="text-section">
-            <div class="nav">
-                <a href="index.html"><i class="fa-solid fa-house"></i> Home</a>
-                <a href="palettes.html"><i class="fa-solid fa-palette"></i> Palettes</a>
-                <a href="photos.html"><i class="fa-solid fa-camera"></i> Photos</a>
-                <a href="links.html"><i class="fa-solid fa-link"></i> Links</a>
+    <div class="parallax">
+        <div class="parallax-group" id="g1"></div>
+        <div class="parallax-group" id="g2"></div>
+        <div class="parallax-group" id="g3"></div>
+        <div class="parallax-group" id="g4"></div>
+        <div class="parallax-group" id="g5">
+            <div class="main-container">
+                <div class="nav-container">
+                    <a class="nav-item" id="nav-home" href="/">Home</a>
+                    <a class="nav-item" id="nav-links" href="/links/">Links</a>
+                    <a class="nav-item" id="nav-photos" href="/photos/">Photos</a>
+                    <a class="nav-item" id="nav-dotfiles" href="/dotfiles/">Dotfiles</a>
+                    <a class="nav-item" id="nav-more" href="/more/">More</a>
+                </div>
+                <div class="content-container">
+                    <h1>ICDT</h1> <span class="darker">/ɑ́jsd tɪ́j/</span>
+                    <p>
+                        Hello. If you've happened upon this place, you probably came from one of my socials. If not then I personally shared it with you, in which case please don't stalk me.
+                    </p>
+                    <p>
+                        I have made and remade this website more times than I can count on my fingers, and I hope that I have at least learned something about web development. I'm going to have to find an internship in a couple years anyway. While we're on the topic how would you rate the current layout? I think I did a nice job with the parallax effect.
+                    </p>
+                    <p>
+                        This site is best viewed on a desktop so you can see the full pixel art (that I worked very hard on). <div class="lighter">⌄ Scroll for parallax ⌄</div>
+                    </p>
+                    <p>
+                        <div class="darker">Last updated: <div id="days">X days ago</div> (<div id="dateDisplay">07/29/2025</div>)</div>
+                    </p>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                </div>
             </div>
-            <h1>ICD-T<div class="darker">.github.io/</div></h1>
-
-            <hr class="solid">
-
-            <div class="paragraph">
-                Hello, and welcome to my humble abode. Feel free to peep around, I have lots of goodies for you if you know where to look. (Hint: its at the top) This is like my 6th or 7th major refactoring of this website. This time I got a spell checker, so it can't possibly be that bad.
-            </div>
-            <div class="paragraph">
-                You can expect some occasional updates. Maybe with some new pictures or content, so stay tuned if you want. Also feel free to check out my socials in the links page.
-            </div>
-            <div class="paragraph">
-                A note to the people who know me in real life: Stop stalking me. Its weird.
-            </div>
-
-            <hr class="solid">
-
-            <div class="paragraph">
-                <div class="darker">Last updated: <div id="days">NaN days ago</div> // <div id='dateDisplay'>01/15/2025</div> </div>
-            </div>
-        </div>
-
-        <div class="img-section">
-            <img src="imgs/IMG_2072-compressed.jpg" alt="">
-            <img src="imgs/IMG_2072-compressed.jpg" alt="">
         </div>
     </div>
 </body>
