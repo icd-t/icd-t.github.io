@@ -8,6 +8,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../styles.css">
     <link rel="icon" href="/icons/favicon.png">
+
+    <link rel="prefetch" href="/icons/nav-home-high.png">
+    <link rel="prefetch" href="/icons/nav-links-high.png">
+    <link rel="prefetch" href="/icons/nav-photos-high.png">
+    <link rel="prefetch" href="/icons/nav-dotfiles-high.png">
+    <link rel="prefetch" href="/icons/nav-default-high.png">
+
     <title>More</title>
 </head>
 <body>
@@ -28,7 +35,7 @@
                 <div class="content-container">
                     <h1>More</h1>
                     <p>
-                        Some extra little things if you care
+                        Some extra little things if you care.
                     </p>
                     <h2>Icons</h2>
                     <p>
@@ -56,10 +63,26 @@
                             <th><img src="/icons/youtube.png"></th>
                             <th><img src="/icons/steam.png"></th>
                         </tr>
+                        <tr>
+                            <th><img src="/icons/letterboxd.png"></th>
+                            <th><img src="/icons/favicon.png"></th>
+                        </tr>
                     </table>
                     <p>
                         Aseprite files in original quality can also be found with the link given.
                     </p>
+                    <h2>Reviews</h2>
+                    <p>
+                        This display is linked to my letterboxd and will show you my most recent movie review:
+                    </p>
+                    <div id="letterboxd-embed-wrapper-tc">Loading...</div>
+                    <script>
+                        fetch('https://lb-embed-content.bokonon.dev?username=icd')
+                        .then(response => response.text())
+                        .then(data => {
+                            document.getElementById('letterboxd-embed-wrapper-tc').innerHTML = data;
+                        });
+                    </script>
                     <br>
                     <br>
                     <br>

@@ -6,6 +6,9 @@ body {
     margin: 0;
     background-color: #2b2b45;
 }
+::selection {
+    background-color: #686f99;
+}
 
 .parallax {
     perspective: 1px;
@@ -25,25 +28,30 @@ body {
     transform: translateZ(-3px) scale(4);
     margin-top: 0;
     background-image: url("/background/g1.png");
-    background-repeat: no-repeat;
+    background-repeat: repeat-x;
+    width: 100vw;
 }
 #g2 {
     transform: translateZ(-2px) scale(3);
     margin-top: 0vh;
     background-image: url("/background/g2.png");
-    background-repeat: no-repeat;
+    background-repeat: repeat-x;
+    width: 100vw;
 }
 #g3 {
     transform: translateZ(-1px) scale(2);
     margin-top: 0vh;
     background-image: url("/background/g3.png");
-    background-repeat: no-repeat;
+    background-repeat: repeat-x;
+    width: 100vw;
 }
 #g4 {
     transform: translateZ(0px) scale(1);
     margin-top: 0vh;
     background-image: url("/background/g4.png");
-    background-repeat: no-repeat;
+    background-repeat: repeat-x;
+    width: 100vw;
+    height: 1080px;
 }
 #g5 {
     margin-top: clamp(300px, 20vh, 500px);
@@ -126,6 +134,9 @@ body {
 #social-steam::before {
     content: url(/icons/steam.png);
 }
+#social-letterboxd::before {
+    content: url(/icons/letterboxd.png);
+}
 #git-dotfiles::before {
     content: url(/icons/nav-dotfiles.png)
 }
@@ -139,6 +150,19 @@ body {
         height: 75px;
         transform: scale(1.5);
     }
+}
+
+.letterboxd-embed-tc-diary-entry:not(:first-child), .letterboxd-embed-tc-divider, .letterboxd-embed-tc-more {
+    display: none !important;
+}
+.letterboxd-embed-tc-title, .letterboxd-embed-tc-review {
+    color: #dfe0e8 !important;
+}
+.letterboxd-embed-tc-year, .letterboxd-embed-tc-date {
+    color: #686f99 !important;
+}
+.letterboxd-embed-tc-rating {
+    color: #a3a7c2 !important;
 }
 
 h1 {
@@ -163,6 +187,9 @@ th {
     color: #686f99;
     display: inline-block;
     font-weight: normal;
+}
+.darker::selection {
+    color: #a3a7c2;
 }
 .lighter {
     font-weight: bold;
