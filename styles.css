@@ -9,6 +9,9 @@ body {
 ::selection {
     background-color: #686f99;
 }
+.darker::selection {
+    color: #a3a7c2;
+}
 
 .parallax {
     perspective: 1px;
@@ -140,6 +143,19 @@ body {
 #git-dotfiles::before {
     content: url(/icons/nav-dotfiles.png)
 }
+#games-wordle::before, #games-connections::before, #games-mini::before {
+    content: url(/icons/nytimes.png);
+}
+#games-graphs::before {
+    content: url(/icons/graph.png);
+}
+#games-color::before {
+    content: url(/icons/color.png);
+}
+#games-balatro::before {
+    content: url(/icons/balatro.png);
+}
+
 @media (max-width: 750px) {
     .nav-container {
         width: 10%;
@@ -188,9 +204,6 @@ th {
     display: inline-block;
     font-weight: normal;
 }
-.darker::selection {
-    color: #a3a7c2;
-}
 .lighter {
     font-weight: bold;
     color: white;
@@ -210,6 +223,11 @@ th {
 .thumbnail:hover {
     rotate: 2deg;
     transform: scale(1.1);
+}
+.divider {
+    margin: 30px 40px;
+    width: 100%;
+    border-top: dotted 1px #686f99;
 }
 
 #days, #dateDisplay {

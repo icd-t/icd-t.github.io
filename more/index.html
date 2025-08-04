@@ -37,7 +37,58 @@
                     <p>
                         Some extra little things if you care.
                     </p>
-                    <h2>Icons</h2>
+
+                    <div class="divider"></div>
+
+                    <h3>The Dailies</h2>
+                    <p>
+                        Games similar to Wordle in the fact that they are trivia-based browser games that have a new puzzle every day. These are the ones that I normally play if I have time.
+                    </p>
+                    <table>
+                        <tr>
+                            <th><a href="https://www.nytimes.com/games/wordle/index.html" class="social-link" id="games-wordle">Wordle</a></th>
+                            <th class="darker">6 chances to guess a 5-letter word.</th>
+                        </tr>
+                        <tr>
+                            <th><a href="https://www.nytimes.com/games/connections" class="social-link" id="games-connections">Connections</a></th>
+                            <th class="darker">Group 16 words in 4 themed categories.</th>
+                        </tr>
+                        <tr>
+                            <th><a href="https://www.nytimes.com/crosswords/game/mini" class="social-link" id="games-mini">The Mini</a></th>
+                            <th class="darker">A micro-sized 5x5 crossword puzzle.</th>
+                        </tr>
+                        <tr>
+                            <th><a href="https://graphs.world" class="social-link" id="games-graphs">graphs.world</a></th>
+                            <th class="darker">Guess what the graph represents.</th>
+                        </tr>
+                        <tr>
+                            <th><a href="https://colorguesser.com" class="social-link" id="games-color">Colorguesser</a></th>
+                            <th class="darker">Guess the color based on its name.</th>
+                        </tr>
+                        <tr>
+                            <th><a href="https://balatrodle.com" class="social-link" id="games-balatro">Balatrodle</a></th>
+                            <th class="darker">Guess the joker from Balatro.</th>
+                        </tr>
+                    </table>
+
+                    <div class="divider"></div>
+
+                    <h3>Reviews</h2>
+                    <p>
+                        This display is linked to my letterboxd and will show you my most recent movie review:
+                    </p>
+                    <div id="letterboxd-embed-wrapper-tc">Loading...</div>
+                    <script>
+                        fetch('https://lb-embed-content.bokonon.dev?username=icd')
+                        .then(response => response.text())
+                        .then(data => {
+                            document.getElementById('letterboxd-embed-wrapper-tc').innerHTML = data;
+                        });
+                    </script>
+
+                    <div class="divider"></div>
+
+                    <h3>Icons</h2>
                     <p>
                         All art on this site was made by me in Aseprite. Everything is free use, if you care to use it. You can check out the full gallery on this websites source <a href="https://github.com/icd-t/icd-t.github.io">[ here ]</a>. Here are the icons made for this site:
                     </p>
@@ -66,23 +117,17 @@
                         <tr>
                             <th><img src="/icons/letterboxd.png"></th>
                             <th><img src="/icons/favicon.png"></th>
+                            <th><img src="/icons/nytimes.png"></th>
+                            <th><img src="/icons/graph.png"></th>
+                            <th><img src="/icons/color.png"></th>
+                        </tr>
+                        <tr>
+                            <th><img src="/icons/balatro.png"></th>
                         </tr>
                     </table>
                     <p>
                         Aseprite files in original quality can also be found with the link given.
                     </p>
-                    <h2>Reviews</h2>
-                    <p>
-                        This display is linked to my letterboxd and will show you my most recent movie review:
-                    </p>
-                    <div id="letterboxd-embed-wrapper-tc">Loading...</div>
-                    <script>
-                        fetch('https://lb-embed-content.bokonon.dev?username=icd')
-                        .then(response => response.text())
-                        .then(data => {
-                            document.getElementById('letterboxd-embed-wrapper-tc').innerHTML = data;
-                        });
-                    </script>
                     <br>
                     <br>
                     <br>
