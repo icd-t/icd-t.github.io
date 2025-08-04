@@ -155,6 +155,12 @@ body {
 #games-balatro::before {
     content: url(/icons/balatro.png);
 }
+#games-spell::before {
+    content: url(/icons/spell.png);
+}
+#games-estimate::before {
+    content: url(/icons/estimate.png);
+}
 
 @media (max-width: 750px) {
     .nav-container {
