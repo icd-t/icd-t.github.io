@@ -4,7 +4,7 @@
 }
 body {
     margin: 0;
-    background-color: #2f3045;
+    background-color: #2b2b43;
 }
 ::selection {
     background-color: #686f99;
@@ -121,6 +121,9 @@ body {
 }
 #nav-links:hover::before {
     content: url(icons/nav-links-high.png);
+}
+#social-instagram::before {
+    content: url(/icons/instagram.png);
 }
 #social-discord::before {
     content: url(/icons/discord.png);
