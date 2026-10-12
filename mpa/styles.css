@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+
+body {
+  width: 700px;
+  margin: auto;
+  margin-top: 300px;
+  font-size: 18px;
+  background: #fcf4e6;
+  background: linear-gradient(90deg, rgba(217, 202, 182, 1) 0%, rgba(252, 244, 230, 1) 50%, rgba(217, 202, 182, 1) 100%);
+  color: #635a49;
+  font-family: "PT Serif";
+  font-weight: 300;
+}
+
+.head {
+  font-family: "Merriweather";
+  text-align: center;
+  font-size: 45px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  color: #241b09;
+}
+
+.sub-head {
+  font-family: "Playfair Display SC";
+  text-align: center;
+  letter-spacing: 2px;
+  font-size: 13px;
+  margin: 25px 0px 25px 0px;
+  color: #241b09;
+}
+
+.intro {
+  width: 600px;
+  font-weight: 500;
+  margin: auto;
+  text-align: center;
+  color: #635a49;
+}
+
+.section {
+  width: 600px;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.shead {
+  text-align: center;
+  font-size: 25px;
+  color: #241b09;
+}
+
+.ssub {
+  text-align: center;
+  font-family: "Merriweather";
+  letter-spacing: 1px;
+  font-size: 15px;
+  margin-top: 20px;
+  margin-bottom: 55px;
+  font-weight: 100;
+  color: #9e9688;
+}
+
+p {
+  text-indent: 2em;
+}
+
+.chart {
+  margin: 50px 0px 50px 0px;
+}
+
+.chart img {
+  border: 2px solid #635a49;
+}
+
+.ctext {
+  font-size: 12px;
+  text-align: right;
+}
+
+a {
+  color: #635a49;
+}
